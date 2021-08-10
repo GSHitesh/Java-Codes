@@ -20,9 +20,13 @@ public class Main {
 //        System.out.println("The Float Value: " + num1);\
 
         //Challenge pounds to kg
-        double pounds = 5545.44d;
-        double kg = pounds* 0.45359237d;
-        System.out.println("The weight in kg is: " + kg);
+//        double pounds = 5545.44d;
+//        double kg = pounds* 0.45359237d;
+//        System.out.println("The weight in kg is: " + kg);
+        char mychar = '\u0044';
+        System.out.println(mychar);
+        Boolean mytrue = true;
+        System.out.println(mytrue);
 
     }
 }
