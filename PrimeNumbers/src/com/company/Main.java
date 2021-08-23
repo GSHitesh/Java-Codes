@@ -5,12 +5,19 @@ public class Main {
     public static void main(String[] args) {
         int count = 0;
 	for(int i = 5; i < 100;i++){
-	    if(isPrime(i))
-	        count ++;
+	    if(isPrime(i)) {
+            count++;
+            System.out.println("Prime Number is: " + i);
+        }
+	    if(count == 3){
+            System.out.println("More than 3 prime numbers");
+            break;
+        }
+
 
     }
-        if(count > 5)
-            System.out.println("Prime Numbers are more than 5 = " + count);
+//        if(count > 5)
+//            System.out.println("Prime Numbers are more than 5 = " + count);
     }
     public static boolean isPrime(int n){
         if(n==1)
